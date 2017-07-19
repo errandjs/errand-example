@@ -7,7 +7,7 @@
 
 npm install
 
-pm2 start .\node_modules\errand-logger\lib\errand-logger.js
+pm2 start node_modules/errand-logger/lib/errand-logger.js
 
 node ./node_modules/errand/lib/errand-producer.js --job .\errand-sample-job.json
 
