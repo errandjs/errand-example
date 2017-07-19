@@ -29,7 +29,7 @@ Notes:
 		{
 			"task": "errand-logger",
 			"data": {
-				"name": "errand-logger-task-1",
+				"description": "errand-logger-task-1",
 				"request": {
 					"message": "hello world"
 				}
@@ -38,7 +38,7 @@ Notes:
 		{
 			"task": "errand-logger",
 			"data": {
-				"name": "errand-logger-task-2",
+				"description": "errand-logger-task-2",
 				"request": {
 					"message": "foobar"
 				}
@@ -50,3 +50,10 @@ Notes:
 
 ```
 
+
+Notes:
+
+* **tasks** - [errand](https://github.com/errandjs/errand) task list
+* **tasks[].task** - required `errand-logger` task name
+* **tasks[].data.description** - optional task description
+* **tasks[].data.request.message** - required message to write to log
