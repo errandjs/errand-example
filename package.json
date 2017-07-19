@@ -1,0 +1,24 @@
+{
+  "name": "errand-example",
+  "version": "0.1.1",
+  "description": "example demonstrating how to use errand producer and worker",
+  "main": "index.js",
+  "dependencies": {
+    "errand": "^0.1.1",
+    "errand-logger": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/errandjs/errand-example.git"
+  },
+  "author": "mattcam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/errandjs/errand-example/issues"
+  },
+  "homepage": "https://github.com/errandjs/errand-example#readme"
+}
